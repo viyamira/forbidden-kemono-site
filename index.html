@@ -5,9 +5,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Forbidden Kemono Studio</title>
   <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Forbidden Kemono Studio</h1>
-  <p>This is the starter version of the site.</p>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo-container">
+        <img src="images/logo.png" alt="Main Logo"  class ="logo" />
+        <img src="images/logo2.png" alt="Secondary Logo" class="second-logo" />
+      </div>
+      <ul class="nav-links">
+        <li class="dropdown">
+          <span class="dropdown-title">Games <span class="arrow">▼</span></span>
+          <ul class="dropdown-menu">
+            <li><a href="#">Tavern Tycoon</a></li>
+            <li><a href="#">After Hours: Library</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <span class="dropdown-title">About <span class="arrow">▼</span></span>
+          <ul class="dropdown-menu">
+            <li><a href="#">Meet the team</a></li>
+            <li><a href="#">Merch</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Log in / Sign up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="intro-text">
+      <p>
+        At Forbidden Kemono Studio, our mission is to create unforgettable gaming experiences.
+        We strive to push the boundaries of simulation, horror, and open-world MMORPGs,
+        ensuring players feel a deep connection to the worlds we build.
+      </p>
+    </div>
+    <div class="mascot">
+      <img src="images/welcome.png" alt="Mascot saying Welcome!" />
+    </div>
+  </section>
+
+  <!-- Let's Play Section -->
+  <section class="lets-play">
+    <h2>Let’s Play!</h2>
+    <p>Forbidden Kemono Studio builds imaginative game worlds that challenge and inspire across genres like tycoon, horror, and MMORPGs.</p>
+    <div class="placeholder-img">[PICTURE]</div>
+  </section>
+
+  <!-- News Section -->
+  <section class="news-section">
+    <div class="news-card">
+      <strong>Some Exciting News!</strong><br>
+      <small>Short description of the news</small>
+    </div>
+    <div class="news-card">news</div>
+    <div class="news-card">news</div>
+    <a class="blog-link" href="#">View the Blog</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="contact">
+      <p><strong>Contact Us:</strong></p>
+      <p>Phone<br>Email<br>Address<br>Hours</p>
+    </div>
+    <div class="newsletter">
+      <p><strong>Sign up for our newsletter</strong></p>
+      <input type="email" placeholder="Enter your email" />
+    </div>
+  </footer>
+
 </body>
 </html>
